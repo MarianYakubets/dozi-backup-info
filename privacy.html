@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dozi Backups — privacy</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;max-width:44rem;margin:4rem auto;padding:0 1.3rem;color:#233347;background:#f7f9fc}h1,h2{line-height:1.2}a{color:#175bb5}</style>
+<main><p><a href="index.html">Dozi Backups</a></p><h1>Privacy information</h1><p>Updated 7 October 2026.</p>
+<h2>Purpose and access</h2>
+<p>Dozi Backups is a personal recovery utility operated by the content owner. Google Drive access uses the <code>drive.file</code> permission, limited to files and folders created by this utility or explicitly made available to it by the owner.</p>
+<p>The utility reads the Google account email address to confirm the destination account and storage quota to check capacity. It creates and reads encrypted backup files, checks integrity, and expires older snapshots according to the configured retention policy.</p>
+<h2>Storage and use</h2>
+<p>Backups are encrypted with Restic before upload to the owner's Google Drive. The recovery password is stored separately. OAuth credentials are kept in restricted local and server configuration files; a private deployment system may hold them as secrets to install the service.</p>
+<p>Google API data is used only for backup and recovery. It is not sold, used for advertising, shared for unrelated purposes, or used to train AI models. Google API information is not published on this website.</p>
+<p>The use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including its Limited Use requirements.</p>
+<h2>Control and retention</h2>
+<p>The owner controls the backup files and can revoke access through Google Account permissions. Revoking access stops future uploads and reads; existing backups remain until the owner removes them. The configured snapshot retention is seven daily, four weekly and six monthly snapshots. Independently saved recovery archives remain under the owner's control.</p>
+<h2>Contact</h2>
+<p>The owner can manage this utility through the private backup repository and the support contact displayed on the Google consent screen. This utility does not accept public sign-ups.</p>
+</main></html>
